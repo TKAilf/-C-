@@ -1,0 +1,11 @@
+﻿Exercise701.Vector2D v1 = new Exercise701.Vector2D( 1, 1 );
+Console.WriteLine( "v1=({0},{1})", v1.X, v1.Y );
+Exercise701.Vector2D v2 = new Exercise701.Vector2D( 1, -1 );
+Console.WriteLine( "v1=({0},{1})", v1.X, v1.Y );
+v1.Add( v2 );
+Console.WriteLine( "v1=({0},{1})", v1.X, v1.Y );
+v1.Sub( v2 );
+Console.WriteLine( "v1=({0},{1})", v1.X, v1.Y );
+v1.Mul( 2.0 );
+Console.WriteLine( "v1=({0},{1})", v1.X, v1.Y );
+Console.WriteLine( "v1,v2の内積 : {0}", v1.DotProduct( v2 ) );
