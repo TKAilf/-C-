@@ -8,12 +8,12 @@ namespace SampleEx101
 {
     internal class Person
     {
-        public Person(){
-            Console.WriteLine( "引数なしコンストラクタ" );
-        }
-        // public Person() : this( "名無し", 0 ){
+        // public Person(){
         //     Console.WriteLine( "引数なしコンストラクタ" );
         // }
+        public Person() : this( "名無し", 0 ){
+            Console.WriteLine( "引数なしコンストラクタ" );
+        }
         public Person( string name, int age ){
             Name = name;
             Age = age;
