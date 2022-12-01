@@ -2,6 +2,7 @@
 {
     // delegateとはメソッドをクラス化するための宣言
     // 戻り値のない、Operationというメソッドをクラス化する。
+    // イベント関係に使うことがある。
     delegate void Operation( int a, int b );
     class Calc
     {
